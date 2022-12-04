@@ -1,0 +1,13 @@
+for a = 1,12 do
+ 
+	local tru = true
+	 
+	if tru == true then 
+		wait(1,7)
+	local args = {
+		[1] = " ",
+		[2] = "All"
+	}
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+	end
